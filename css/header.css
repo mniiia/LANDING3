@@ -52,3 +52,17 @@
 .reserve_button a:hover {
   background: #d5621d;
 }
+
+@media (max-width: 1090px) {
+  .header_navigation_list {
+    flex-wrap: wrap;
+  }
+  .header_navigation_list_item {
+    flex-basis: 33%;
+    text-align: center;
+  }
+  .header_navigation_list_item:hover {
+    transform: scale(1), scaleX(1.5);
+    margin: 0px 30px;
+  }
+}

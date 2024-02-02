@@ -100,7 +100,7 @@
 }
 
 .album_covers img {
-  width: 100%;
+  width: 160px;
 }
 
 .album_covers.active {
@@ -110,4 +110,14 @@
 
 .album_covers {
   display: none;
+}
+
+@media (max-width: 940px) {
+  .album_column:first-child {
+    display: none;
+  }
+  .albums_content {
+    justify-content: center;
+    padding-top: 10px;
+  }
 }
