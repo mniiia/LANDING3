@@ -1,0 +1,33 @@
+.header {
+  padding: 20px 0;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.header_logo {
+}
+.header_navigation {
+}
+.header_navigation_list {
+  display: flex;
+  vertical-align: middle;
+}
+.header_navigation_list_item {
+  color: white;
+  margin: 0 30px;
+  text-transform: capitalize;
+}
+.reserve_button {
+  text-transform: uppercase;
+}
+
+.reserve_button a {
+  color: white;
+  padding: 15px 30px;
+  border: 1px solid #d5621d;
+  border-radius: 5px;
+}
