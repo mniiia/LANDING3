@@ -20,7 +20,22 @@
   color: white;
   margin: 0 30px;
   text-transform: capitalize;
+  transition: 0.2s;
 }
+.header_navigation_list_item:hover {
+  transform: scale(1.5);
+  margin: 0 40px;
+}
+
+.header_navigation_list_item a {
+  color: white;
+  transition: 0.2s;
+}
+
+.header_navigation_list_item a:hover {
+  color: #d5621d;
+}
+
 .reserve_button {
   text-transform: uppercase;
 }
@@ -30,4 +45,9 @@
   padding: 15px 30px;
   border: 1px solid #d5621d;
   border-radius: 5px;
+  transition: 0.2s;
+}
+
+.reserve_button a:hover {
+  background: #d5621d;
 }
